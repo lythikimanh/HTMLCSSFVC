@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .row1_right {
