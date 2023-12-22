@@ -11,25 +11,17 @@ padding: 0;
 margin: 0 auto;
 }
 
-.container menu {
-    margin: auto;
-    max-width: 810px;
-    padding: 0;
-}
 
 .navbar div {
     display: inline-block;
 }
 .navbar {
     display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
+    grid-template-columns: 60% auto;
 }
 .navbar-right{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    align-items: center;
-    text-align: center;
 }
 
 .a {
@@ -54,15 +46,15 @@ margin: 0 auto;
 .navbar-brand {
     padding-left: 0px;
 }
-.text {
+.textimg {
     top: 0px;
     left: 5%;
-    color: #b2e2f3;
+    color: #daf6ff;
 }
-.text position-relative h1{
+.textimg h1{
     font-size: 24px;
 }
-.text position-relative p {
+.textimg p {
     top: 30px;
     left: 0px;
     font-size: 13px;
@@ -70,39 +62,35 @@ margin: 0 auto;
 .row {
   padding-left: 20px;
 }
-    @media only screen and (min-width: 768px) {
-/* For tablets: */
-    body {
-    background-color: white;
+
+@media only screen and (min-width: 768px) {
+  
+    /* For tablets: */
+.body{
+    background-color: green;
+}
+.textimg {
+      top: 0px;
+      left: 16%;
     }
+.textimg h1{
+      font-size: 2.0em;
     }
-    .textimg {
-        top: 0px;
-        left: 16%;
-      }
-  .textimg h1{
-        font-size: 2.0em;
-        color: #394bd8;
-      }
-  .textimg p {
-        top: 40px;
-        left: 25px;
-        font-size: 16px;
-        color: #daf6ff;
-      }
+.textimg p {
+      top: 40px;
+      left: 25px;
+      font-size: 16px;
+    }
+}
+.row {
+  padding-left: 20px;
+}
+@media only screen and (min-width: 987px) {
+  
+/* For desktop: */
+  
+  .textimg {
+    left: 25%;
   }
-  .row {
-    padding-left: 20px;
-  }
-    @media only screen and (min-width: 987px) {
- /* For desktop: */
-    body {
-    background-color: rgb(192, 213, 188);
-    }
-    }
-    </style>
-    .textimg {
-        left: 25%;
-      }
-    }
+}
     
